@@ -1,0 +1,47 @@
+{
+  "name": "ekonomikosesi-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for Ekonomi Köşesi — Turkish financial news, Borsa İstanbul (BIST) equities, TEFAS mutual funds, newspaper front-page archives, and platform status.",
+  "license": "MIT",
+  "author": "Berat Yükselen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beratyukselen/ekonomikosesi-mcp.git"
+  },
+  "homepage": "https://ekonomikosesi.com/api/mcp",
+  "bugs": {
+    "url": "https://github.com/beratyukselen/ekonomikosesi-mcp/issues"
+  },
+  "type": "commonjs",
+  "main": "src/bridge.js",
+  "bin": {
+    "ekonomikosesi-mcp": "bin/ekonomikosesi-mcp.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "README.tr.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node bin/ekonomikosesi-mcp.js",
+    "test": "node --test test/bridge.test.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "turkish",
+    "turkey",
+    "bist",
+    "borsa-istanbul",
+    "tefas",
+    "finance",
+    "news",
+    "newspapers",
+    "ekonomikosesi"
+  ]
+}
